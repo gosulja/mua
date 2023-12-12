@@ -23,6 +23,6 @@
 
 ### As you can see here, 5 + 5 does equal to 10! :)
 
-![image](https://github.com/petxmr/mol/assets/111649405/0489f194-b0ee-4d17-9988-7cebaf190922)
+![image](https://github.com/petxmr/mol/assets/111649405/b333523d-a603-406d-8585-6ef5cb289418)
 
 * But we can see the parser has found the random `a` after the semicolon; it sets it's value to `aundefined` which is very handy for error logging!
