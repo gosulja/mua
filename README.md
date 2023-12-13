@@ -1,4 +1,4 @@
-# mol
+# mua
 
 * A very simple and flexible static scripting language which shares similar features to C++, Rust and Lua.
 
