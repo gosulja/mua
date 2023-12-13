@@ -26,3 +26,14 @@
 ![image](https://github.com/petxmr/mol/assets/111649405/b333523d-a603-406d-8585-6ef5cb289418)
 
 * But we can see the parser has found the random `a` after the semicolon; it sets it's value to `aundefined` which is very handy for error logging!
+
+# Version 0.03
+
+* I'v created a simple type registry for now, updated the `Lexer` and `Parser` to handle these types, but treat them as delcarations.
+
+![image](https://github.com/petxmr/mua/assets/111649405/52902967-124a-48e4-8e68-6c7fc98f1671)
+
+### It also seems to handle large calculations pretty well, but it seems to treat paranthesis's as objects.
+
+![image](https://github.com/petxmr/mua/assets/111649405/31ef10c0-afb6-4c9d-9466-82d33ed90e4f)
+
