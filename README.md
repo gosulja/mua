@@ -1,6 +1,6 @@
 # mol
 
-* A very simple and flexible static scripting language which shares similar features to C++ and Rust.
+* A very simple and flexible static scripting language which shares similar features to C++, Rust and Lua.
 
 # Version 0.01
 
