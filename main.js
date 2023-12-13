@@ -2,7 +2,7 @@ const Lexer = require('./lib/Lexer');
 const Parser = require('./lib/Parser');
 const Evaluator = require('./lib/Evaluator');
 
-const input = 'int a = 5 + 5; a';
+// Implement a command like usage for test purposes.
 
 const lexer = new Lexer(input);
 const tokens = lexer.lex();
