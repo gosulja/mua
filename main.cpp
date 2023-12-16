@@ -1,6 +1,6 @@
 #include <string>
 #include <iostream>
-#include "lib/Lexer.h"
+#include "lib/lexer/Lexer.h"
 
 int main() {
 	
@@ -10,7 +10,7 @@ int main() {
 	Token token;
 	do {
 		token = lexer.get_next_token();
-		std::cout << "Token: type = " << token.type << ", value = " << token.value << "\n";
+		std::cout << "Token: [ type: " << token.type << ", value: " << token.value << " ]\n";
 	} while (token.type != ENDOF);
 
 	return 0;
